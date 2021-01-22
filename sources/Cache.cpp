@@ -1,4 +1,4 @@
-// Copyright 2020 Your Name <your_email>
+// Copyright 2020 kropachevskiy <kropachev-95@mail.ru>
 
 #include <Cache.hpp>
 
