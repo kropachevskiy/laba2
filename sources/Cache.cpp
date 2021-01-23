@@ -11,7 +11,7 @@ void Cache::Find_Exp_Size() {
     size = pow(2, i) * Kb_in_Mb;
   }
   /* 128Kb < 1024Kb < 2048Kb < 4096Kb < 12288Kb */
-  Num_Exp = Exp_Size.size(); /* 5 */
+  Num_Exp = Exp_Size.size();
   for (int i = 0; i < Num_Exp; ++i) {
     std::ostringstream os;
     if (Exp_Size[i] < Kb_in_Mb) {

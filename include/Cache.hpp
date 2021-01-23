@@ -10,7 +10,7 @@
 #include <cmath>
 #include <sstream>
 
-const int Size[3]{256, 1024, 8192}; /* 256Kb, 1024Mb, 8192Mb*/
+const int Size[3]{256, 1024, 8192};
 const int Research{3};
 const int Kb_in_Mb{1024};
 const int byte_in_Kb{1024};
